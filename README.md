@@ -63,14 +63,15 @@ RADARR_URL=radarr RADARR_API_KEY=key RADARR_TAG_LOCATION=kids:/data/movies/kids 
 
 All variables are optional however providing none will result in the application quitting
 
-| Variable | Description |
-| `RADARR_URL` | The URL used to locate your Radarr instance |
-| `RADARR_API_KEY` | The API key used to authenticate with your Radarr instance (Settings -> General -> API Key) |
-| `RADARR_TAG_LOCATION` | The expected tags in Radarr mapped to their corresponding location with a colon delimited by a comma |
-| `SONARR_URL` | The URL used to locate your Sonarr instance |
-| `SONARR_API_KEY` | The API key used to authenticate with your Sonarr instance (Settings -> General -> API Key) |
-| `SONARR_TAG_LOCATION` | The expected tags in Sonarr mapped to their corresponding location with a colon delimited by a comma |
-| `SCHEDULE_INTERVAL_MINUTES` | The time between scans in minutes |
+| Variable                    | Description                                                                                          |
+|-----------------------------|------------------------------------------------------------------------------------------------------|
+| `RADARR_URL`                | The URL used to locate your Radarr instance                                                          |
+| `RADARR_API_KEY`            | The API key used to authenticate with your Radarr instance (Settings -> General -> API Key)          |
+| `RADARR_TAG_LOCATION`       | The expected tags in Radarr mapped to their corresponding location with a colon delimited by a comma |
+| `SONARR_URL`                | The URL used to locate your Sonarr instance                                                          |
+| `SONARR_API_KEY`            | The API key used to authenticate with your Sonarr instance (Settings -> General -> API Key)          |
+| `SONARR_TAG_LOCATION`       | The expected tags in Sonarr mapped to their corresponding location with a colon delimited by a comma |
+| `SCHEDULE_INTERVAL_MINUTES` | The time between scans in minutes                                                                    |
 
 ## Limitations
 
