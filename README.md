@@ -1,6 +1,6 @@
 # Categoriserr
 
-A category enforcing companion for the Starr applications Sonarr and Radarr which changes the location of media based on the tags associated 
+A category enforcing companion app for the Starr applications Sonarr and Radarr which changes the location of media based on the tags associated 
 
 Categoriserr utilises the existing Radarr and Sonarr APIs to change the file/hardlink location and gets the Starr app to move the files
 
