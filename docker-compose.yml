@@ -1,6 +1,6 @@
 services:
   categoriserr:
-    build: .
+    image: enayet123/categoriserr:latest
     container_name: categoriserr
     restart: unless-stopped
     environment:
