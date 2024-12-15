@@ -1,0 +1,13 @@
+services:
+  categoriserr:
+    build: .
+    container_name: categoriserr
+    restart: unless-stopped
+    environment:
+      - RADARR_URL=http://192.168.1.1:7878
+      - RADARR_API_KEY=api-key
+      - RADARR_TAG_LOCATION_MAP=kids:/data/movies-kids/,anime:/data/movies-anime/,horror:/data/movies-horror/
+      - SONARR_URL=http://192.168.1.1:8989
+      - SONARR_API_KEY=api-key
+      - SONARR_TAG_LOCATION_MAP=kids:/data/media/shows-kids/,anime:/data/media/shows-anime/
+      - SCHEDULE_INTERVAL_MINUTES=1
