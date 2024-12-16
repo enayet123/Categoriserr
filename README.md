@@ -77,3 +77,9 @@ All variables are optional however providing none will result in the application
 
 - Current implementation is designed for a single instance of Radarr or Sonarr or both but no more (A work around to this can be to deploy multiple instances of Categoriserr)
 - Only a single tag is expected to be found, multiple will lead to undesired behaviour and the location will be the latest tag it reads
+
+## Disclaimer 
+
+This application is provided "as is" without any warranties or guarantees of any kind, either express or implied. The use of this application is at your own risk. The developers assume no liability for any damages, losses, or issues, including but not limited to data loss, system malfunctions, or financial impacts, that may arise from the use or misuse of this application.
+
+By using this application, you agree to take full responsibility for any outcomes and understand that the developers are not liable for any consequences resulting from its use. Always test the application in a controlled environment before deploying it in production.
